@@ -1,0 +1,12 @@
+body {
+  --file-header-justify: left:
+}
+
+.view-header-breadcrumb-separator {
+  font-size: 0px;
+}
+
+.view-header-breadcrumb-separator::after {
+  content: "»";
+  font-size: var(--file-header-font-size);
+}
