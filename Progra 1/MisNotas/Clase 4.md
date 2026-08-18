@@ -1,3 +1,4 @@
+https://github.com/UnidadMutante/UNRN_Obsidian/tree/main/Progra%201/Ejercicios
 
 ![[Pasted image 20260813182341.png]]
 
