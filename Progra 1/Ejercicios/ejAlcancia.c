@@ -48,10 +48,16 @@ int main(void) {
     
 }
 
+/*
+
+*/
 void consultar_saldo() {
     printf("Su saldo es %.2f \n\n", saldo);
 }
 
+/*
+
+*/
 void depositar_dinero() {
     float montoDepositar = 0;
     printf("Ingrese el monto a depositar");
@@ -60,9 +66,13 @@ void depositar_dinero() {
     saldo = saldo + montoDepositar;
     } 
     else {
-        printf("Ingrese un monto válido")
+        printf("Ingrese un monto válido");
     }
 }
+
+/*
+
+*/
 
 void retirar_dinero() {
   
