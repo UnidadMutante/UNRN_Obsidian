@@ -154,6 +154,31 @@ int main(void) {
 ```
 
 
+## Factorial
+
+```
+#include <stdio.h>
+
+int main(void) {
+
+int factorial = 0;
+int num2 = 0;
+int resultado = 0; 
+
+printf("Ingrese un numero: ");
+scanf("%d", &factorial);
+num2 = factorial - 1;
+
+while (num2 > 0) {
+factorial = factorial * num2;
+num2--;
+}
+
+printf("El Factorial es: %d\n", factorial);
+
+return 0;
+}
+```
 
 ##### titulo 5
 

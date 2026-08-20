@@ -8,32 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a51b056d545fd7e",
+            "id": "f2aaaaa8235360b2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Progra 1/Apuntes/05-Funciones y parámetros.pdf"
+                "file": "Progra 1/Apuntes/03-Estructuras de control.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "05-Funciones y parámetros"
+              "title": "03-Estructuras de control"
             }
           },
           {
-            "id": "f2aaaaa8235360b2",
+            "id": "e5d8c8de7ebb1b98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progra 1/MisNotas/Clase 1.md",
+                "file": "Progra 1/MisNotas/Clase 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 1"
+              "title": "Clase 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,42 +231,42 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "3a51b056d545fd7e",
+  "active": "e5d8c8de7ebb1b98",
   "lastOpenFiles": [
-    "ElectronicaDigital/Clase 2.md",
-    "ElectronicaDigital/Clase 1.md",
-    "Progra 1/MisNotas/Clase 5.md",
+    "Quimica/Clase 1.md",
+    "Progra 1/Apuntes/05-Funciones y parámetros.pdf",
+    "ElectronicaDigital/Teórico 2 Funciones lógicas y algebra de bool.md",
+    "Progra 1/Apuntes/04-Estructura memoria.pdf",
+    "Progra 1/Apuntes/03-Estructuras de control.pdf",
     "Progra 1/MisNotas/Clase 1.md",
-    "Progra 1/MisNotas/Clase 2.md",
     "Progra 1/MisNotas/Clase 4.md",
     "Progra 1/MisNotas/Clase 3.md",
-    "Progra 1/Apuntes/05-Funciones y parámetros.pdf",
-    "Progra 1/Ejercicios/alcancia",
-    "ElectronicaDigital/Teórico 2 Funciones lógicas y algebra de bool.md",
-    "Z_CapturasDeImagen/Pasted image 20260814173324.png",
+    "Progra 1/MisNotas/Clase 5.md",
+    "Z_CapturasDeImagen/Pasted image 20260814164604.png",
+    "Z_CapturasDeImagen/Pasted image 20260814164153.png",
+    "Z_CapturasDeImagen/Pasted image 20260814164008.png",
     "ElectronicaDigital/Teórico 1.md",
+    "ElectronicaDigital/Práctico 1.md",
+    "Progra 1/Ejercicios/alcancia",
+    "ElectronicaDigital/Clase 2.md",
+    "ElectronicaDigital/Clase 1.md",
+    "Progra 1/MisNotas/Clase 2.md",
+    "Z_CapturasDeImagen/Pasted image 20260814173324.png",
     "Z_CapturasDeImagen/Pasted image 20260814165501.png",
     "Z_CapturasDeImagen/Pasted image 20260814165334.png",
     "Z_CapturasDeImagen/Pasted image 20260814165222.png",
     "Z_CapturasDeImagen/Pasted image 20260814164741.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164604.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164153.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164008.png",
-    "ElectronicaDigital/Práctico 1.md",
     "Quimica/2. Modelo atómico.md",
     "eval \"$(ssh-agent -s)\".pub",
     "eval \"$(ssh-agent -s)\"",
     "CasaPropiaEnElSur/gitignore.md",
-    "Progra 1/Apuntes/03-Estructuras de control.pdf",
     "Progra 1/Apuntes/02-Introduccion.pdf",
     "Progra 1/Apuntes/01_Presentación de la materia.pdf",
     "Progra 1/Apuntes",
     "Progra 1/Clase 4.md",
     "Progra 1/MisNotas",
-    "Progra 1/Ejercicios/ejercicio2.c",
     "Z_CapturasDeImagen/Pasted image 20260813195216.png",
     "Z_CapturasDeImagen/Pasted image 20260813194903.png",
-    "Quimica/Clase 1.md",
     "Progra 1/Clase 1.md",
     "Progra 1/Clase 3.md",
     "SnippetsObsidian/GitSnippets.md",
@@ -276,7 +277,6 @@
     "Nombres/Zenon.md",
     "Nombres/Heráclito.md",
     "Nombres/Diógenes.md",
-    "Welcome.md",
-    "Quimica/1. Materias y mezclas.md"
+    "Welcome.md"
   ]
 }
