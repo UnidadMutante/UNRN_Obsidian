@@ -4,8 +4,9 @@ float saldo = 0;
 
 void print_menu(void);
 void consultar_saldo();
-void depositar_dinero();
 float depositar(float monto);
+float retirar(float monto);
+void depositar_dinero();
 void retirar_dinero();
 
 int main(void) {
@@ -41,7 +42,11 @@ int main(void) {
     
 }
 
-
+/*
+* Esta función se encarga de consultar saldo
+* PRE-CONDICION: 
+* POST-CONDICION: 
+*/
 void print_menu(void) {
     printf("SELECCIONE UNA OPCION:\n");
     printf("c -> para consultar. \n");
@@ -55,7 +60,7 @@ void print_menu(void) {
 * PRE-CONDICION: 
 * POST-CONDICION: 
 */
-void consultar_saldo() {
+void consultar_saldo(void) {
     printf("Su saldo es %.2f \n\n", saldo);
 }
 
