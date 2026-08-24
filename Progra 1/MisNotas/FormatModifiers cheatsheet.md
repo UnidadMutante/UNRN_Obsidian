@@ -22,6 +22,7 @@ printf("%+08.2f", amount);
 
 ## Conversion specifiers
 
+<<<<<<< HEAD
 | Specifier | Meaning                        | Example |
 | `%d`, `%i` | Signed decimal integer | `-42` |
 | `%u`         | Unsigned decimal integer | `42` |
@@ -34,6 +35,33 @@ printf("%+08.2f", amount);
 | `%s`         | String | `"hello"` |
 | `%p`         | Pointer address | `0x7ffe...` |
 | `%%`         | Literal percent sign | `%` |
+=======
+| Specifier | Meaning | Example |
+
+|---|---|---|
+
+| `%d`, `%i` | Signed decimal integer | `-42` |
+
+| `%u` | Unsigned decimal integer | `42` |
+
+| `%o` | Octal integer | `52` |
+
+| `%x`, `%X` | Hexadecimal integer | `2a`, `2A` |
+
+| `%f` | Decimal floating-point | `3.14` |
+
+| `%e`, `%E` | Scientific notation | `3.14e+00` |
+
+| `%g`, `%G` | Compact `%f` or `%e` form | `3.14` |
+
+| `%c` | Character | `'A'` |
+
+| `%s` | String | `"hello"` |
+
+| `%p` | Pointer address | `0x7ffe...` |
+
+| `%%` | Literal percent sign | `%` |
+>>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
 
 ## Flags (`printf`)
 

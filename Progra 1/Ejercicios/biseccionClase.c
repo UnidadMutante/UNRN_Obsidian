@@ -21,6 +21,10 @@ float biseccion(float a, float b, float tol) {
     }
 
     while (funcion(c)!=0 && (b-a)/2 > tol) {
+<<<<<<< HEAD
+=======
+        if (funcion(c)==0 || (b-a)/2 < tol) {
+>>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             b=c;
         } else {
             a = c;
@@ -33,7 +37,11 @@ float biseccion(float a, float b, float tol) {
 
 int main(void)
 {
+<<<<<<< HEAD
     // pongo los valores del intervalo que quiero testear en a y b + pongo el nivel de tolerancia que acepto para encontrar el punto en "tol"
+=======
+    // pongo los valores del interbalo que quiero testear en a y b + pongo el nivel de tolerancia que acepto para encontrar el punto en "tol"
+>>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
     float a = 3; // para testear, con la funcion x -5, se que con este calir x-5 = -2
     float b = 6; // para testear, con la funcion x -5, se que con este calir 6-5 = 1
     float tol = 0.00001;
