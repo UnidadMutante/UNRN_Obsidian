@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Obsidianite",
+  "showRibbon": true,
+  "theme": "obsidian",
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "headers",
+    "styles",
+    "breadcrumTitle",
+    "tabs",
+    "background"
+  ]
+}

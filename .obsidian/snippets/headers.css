@@ -1,0 +1,8 @@
+body {
+  --h1-color: plum;
+  --h2-color: orange;
+  --h3-color: rgba(51, 150, 204, 0.489);
+  --h4-color: green;
+  --h5-color: purple;
+  --h6-color: pink;
+}
