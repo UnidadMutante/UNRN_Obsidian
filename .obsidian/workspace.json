@@ -1,117 +1,50 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "d76de9727553ee91",
-    "type": "split",
-    "children": [
-      {
-        "id": "8869e032b42bc3f0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fdbfcf64e7514555",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progra 1/MisNotas/Clase 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 1"
-            }
-          },
-          {
-            "id": "b634d97cf52cd830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ElectronicaDigital/Q & A con Claudio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Q & A con Claudio"
-            }
-          },
-          {
-            "id": "34e7a9c74540976c",
-=======
     "id": "3f1c9e0d48ce527b",
     "type": "split",
     "children": [
+      {
+        "id": "b0c4cb2b8ccf2500",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5d8c8de7ebb1b98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progra 1/MisNotas/Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary"
+            }
+          }
+        ]
+      },
       {
         "id": "8e3b05ec70a62d1d",
         "type": "tabs",
         "children": [
           {
-            "id": "f2aaaaa8235360b2",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
+            "id": "ca2a103edef13ed6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-<<<<<<< HEAD
-                "file": "ElectronicaDigital/UNRN-ED_Práctica2.pdf"
+                "file": "Progra 1/Apuntes/06-Cadenas.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "UNRN-ED_Práctica2"
-            }
-          },
-          {
-            "id": "72f304948afc7d05",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ElectronicaDigital/Drawing 2026-08-24 11.34.10.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-24 11.34.10.excalidraw"
+              "title": "06-Cadenas"
             }
           }
         ]
-=======
-                "file": "Progra 1/Apuntes/03-Estructuras de control.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "03-Estructuras de control"
-            }
-          },
-          {
-            "id": "e5d8c8de7ebb1b98",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ElectronicaDigital/Guía2_2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Guía2_2026"
-            }
-          }
-        ],
-        "currentTab": 1
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "3155be32fca83257",
-    "type": "split",
-    "children": [
-      {
-        "id": "b84aafdc05825831",
-        "type": "tabs",
-        "dimension": 75.30864197530865,
-        "children": [
-          {
-            "id": "3f8ca367159d0a90",
-=======
     "id": "638a554108af9753",
     "type": "split",
     "children": [
@@ -122,7 +55,6 @@
         "children": [
           {
             "id": "315a0c0755255148",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -133,19 +65,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-<<<<<<< HEAD
-              "title": "Explorador de archivos"
-            }
-          },
-          {
-            "id": "35597336a2773308",
-=======
               "title": "Files"
             }
           },
           {
             "id": "ef80c130a88ebe06",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "search",
@@ -158,19 +82,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-<<<<<<< HEAD
-              "title": "Buscar"
-            }
-          },
-          {
-            "id": "da78a42bcfae81d9",
-=======
               "title": "Search"
             }
           },
           {
             "id": "72ce9dc448b5d5d6",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -179,41 +95,24 @@
                 "searchQuery": ""
               },
               "icon": "lucide-bookmark",
-<<<<<<< HEAD
-              "title": "Marcadores"
-=======
               "title": "Bookmarks"
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             }
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "id": "abf4e951313612e9",
-        "type": "tabs",
-        "dimension": 24.691358024691358,
-        "children": [
-          {
-            "id": "257fe37ef80ba083",
-=======
         "id": "9f07987cf09bb563",
         "type": "tabs",
         "dimension": 36.36363636363637,
         "children": [
           {
             "id": "089b430d5c796199",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-<<<<<<< HEAD
-              "title": "Vista gráfica"
-=======
               "title": "Graph view"
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             }
           }
         ]
@@ -223,17 +122,6 @@
     "width": 300
   },
   "right": {
-<<<<<<< HEAD
-    "id": "bb9bee0483b86037",
-    "type": "split",
-    "children": [
-      {
-        "id": "7346a82385ad6446",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d8cdeb073aa4f407",
-=======
     "id": "fc67b5645b054112",
     "type": "split",
     "children": [
@@ -243,16 +131,11 @@
         "children": [
           {
             "id": "58a35d8b776e1db3",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "ElectronicaDigital/Q & A con Claudio.md",
-=======
                 "file": "SnippetsObsidian/GitSnippets.md",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,44 +145,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< HEAD
-              "title": "Enlaces entrantes"
-            }
-          },
-          {
-            "id": "0f73011ad4592690",
-=======
               "title": "Backlinks"
             }
           },
           {
             "id": "2af3e68e78e72335",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "ElectronicaDigital/Q & A con Claudio.md",
-=======
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-<<<<<<< HEAD
-              "title": "Enlaces salientes"
-            }
-          },
-          {
-            "id": "8eb79d3eb8680060",
-=======
               "title": "Outgoing links"
             }
           },
           {
             "id": "5bdced55b52daa66",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -310,19 +173,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-<<<<<<< HEAD
-              "title": "Etiquetas"
-            }
-          },
-          {
-            "id": "daf2fa08a4b7cd9e",
-=======
               "title": "Tags"
             }
           },
           {
             "id": "e9ef892ed6fc785b",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -332,35 +187,20 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-<<<<<<< HEAD
-              "title": "Todas las propiedades"
-            }
-          },
-          {
-            "id": "1dae33b709957c62",
-=======
               "title": "All properties"
             }
           },
           {
             "id": "31dad8407445e49e",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "ElectronicaDigital/Q & A con Claudio.md",
-=======
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-<<<<<<< HEAD
-              "title": "Esquema"
-=======
               "title": "Outline"
             }
           },
@@ -374,7 +214,6 @@
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
             }
           }
         ]
@@ -386,51 +225,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
-      "audio-recorder:Iniciar/Detener la grabación": false,
-      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
-      "switcher:Abrir selector rápido": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
-      "omnisearch:Omnisearch": false
-    }
-  },
-  "active": "fdbfcf64e7514555",
-  "lastOpenFiles": [
-    "Progra 1/Ejercicios/triangulo.exe",
-    "Progra 1/Ejercicios/triangulo.c",
-    "Progra 1/Ejercicios/mayord3.exe",
-    "$null",
-    "Progra 1/Ejercicios/mayordetres.c",
-    "Progra 1/Apuntes/04-Estructura memoria.pdf",
-    "Progra 1/Apuntes/03-Estructuras de control.pdf",
-    "Progra 1/Apuntes/05-Funciones y parámetros.pdf",
-    "Progra 1/MisNotas/Clase 3.md",
-    "Progra 1/MisNotas/FormatModifiers cheatsheet.md",
-    "Progra 1/Apuntes/02-Introduccion.pdf",
-    "Progra 1/Apuntes/01_Presentación de la materia.pdf",
-    "ElectronicaDigital/Q & A con Claudio.md",
-    "ElectronicaDigital/UNRN-ED_Teorico2.pdf",
-    "ElectronicaDigital/Drawing 2026-08-24 11.34.10.excalidraw.md",
-    "Z_CapturasDeImagen/Pasted Image 20260824113501_251.png",
-    "ElectronicaDigital/Notas.md",
-    "Z_CapturasDeImagen/annotated_Pasted image 20260824112039.md",
-    "Z_CapturasDeImagen/Pasted image 20260824112039.png",
-    "Bienvenido.md",
-    "Progra 1/MisNotas/Clase 6.md",
-    "Progra 1/MisNotas/Clase 5.md",
-    "Progra 1/MisNotas/Clase 2.md",
-    "Progra 1/MisNotas/Clase 4.md",
-    "Progra 1/MisNotas/Clase 1.md",
-    "ElectronicaDigital/Práctico 1.md",
-    "ElectronicaDigital/Teórico 2 Funciones lógicas y algebra de bool.md",
-    "ElectronicaDigital/Teórico 1.md",
-=======
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -444,18 +238,34 @@
   },
   "active": "e5d8c8de7ebb1b98",
   "lastOpenFiles": [
-    "ElectronicaDigital/UNRN-ED_Práctica2.pdf",
-    "ElectronicaDigital/UNRN-ED_Teorico2.pdf",
-    "ElectronicaDigital/UNRN-ED_Teorico3.pdf",
-    "ElectronicaDigital/UNRN-ED_Teorico1.pdf",
-    "ElectronicaDigital/Guía1_2026.pdf",
-    "ElectronicaDigital/Unconfirmed 288013.crdownload",
+    "Progra 1/MisNotas/Arreglos y punteros.md",
+    "Progra 1/MisNotas/Summary.md",
+    "Progra 1/MisNotas/Arreglos y cadenas.md",
+    "Progra 1/Apuntes/06-Cadenas.pdf",
+    "Z_CapturasDeImagen/Pasted image 20260901204217.png",
+    "Z_CapturasDeImagen/Pasted image 20260901203944.png",
+    "Z_CapturasDeImagen/Pasted image 20260901203738.png",
+    "Z_CapturasDeImagen/Pasted image 20260901202636.png",
+    "Progra 1/MisNotas/Constantes.md",
+    "Z_CapturasDeImagen/Pasted image 20260901202437.png",
+    "Z_CapturasDeImagen/Pasted image 20260901202353.png",
+    "Z_CapturasDeImagen/Pasted image 20260901202313.png",
+    "Progra 1/Ejercicios/arreglos",
+    "Progra 1/Ejercicios/arreglos.c",
+    "Z_CapturasDeImagen/Pasted image 20260901195041.png",
+    "Z_CapturasDeImagen/Pasted image 20260901195002.png",
+    "Progra 1/Ejercicios/sumaArreglo",
+    "Progra 1/Ejercicios/sumaArreglo.c",
+    "Z_CapturasDeImagen/Pasted image 20260901173138.png",
+    "Progra 1/MisNotas/Clase 6.md",
+    "Progra 1/Ejercicios/punteros",
+    "Progra 1/Ejercicios/punteros.c",
+    "Progra 1/Ejercicios/kevinyyo",
+    "Progra 1/MisNotas/FormatModifiers cheatsheet.md",
+    "Progra 1/Ejercicios/kevinyyo.c",
+    "ElectronicaDigital/Taller 1.md",
     "ElectronicaDigital/Guía2_2026.pdf",
-    "ElectronicaDigital/Unconfirmed 544252.crdownload",
-    "ElectronicaDigital/Guía3_2026.pdf",
-    "ElectronicaDigital/UNRN-ED_Práctica1.pdf",
     "ElectronicaDigital/Teórico 1.md",
-    "ElectronicaDigital/Unconfirmed 889833.crdownload",
     "ElectronicaDigital/Práctico 1.md",
     "ElectronicaDigital/Teórico 2 Funciones lógicas y algebra de bool.md",
     "Progra 1/MisNotas/Clase 1.md",
@@ -463,49 +273,16 @@
     "Progra 1/MisNotas/Clase 3.md",
     "Progra 1/MisNotas/Clase 4.md",
     "Progra 1/MisNotas/Clase 5.md",
-    "Progra 1/MisNotas/Clase 6.md",
-    "Progra 1/MisNotas/FormatModifiers cheatsheet.md",
     "Quimica/Clase 1.md",
-    "Z_CapturasDeImagen/Pasted image 20260814164604.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164153.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164008.png",
     "ElectronicaDigital/Clase 2.md",
     "ElectronicaDigital/Clase 1.md",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
-    "Z_CapturasDeImagen/Pasted image 20260814173324.png",
-    "Z_CapturasDeImagen/Pasted image 20260814165501.png",
-    "Z_CapturasDeImagen/Pasted image 20260814165334.png",
-    "Z_CapturasDeImagen/Pasted image 20260814165222.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164741.png",
-<<<<<<< HEAD
-    "Z_CapturasDeImagen/Pasted image 20260814164604.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164153.png",
-    "Z_CapturasDeImagen/Pasted image 20260814164008.png",
-    "SnippetsObsidian/GitSnippets.md",
-    "Quimica/Clase 1.md",
-    "Quimica/2. Modelo atómico.md",
-    "UNRN_Obsidian-main/SnippetsObsidian/GitSnippets.md",
-    "UNRN_Obsidian-main/Quimica/Clase 1.md",
-    "UNRN_Obsidian-main/Quimica/2. Modelo atómico.md",
-    "UNRN_Obsidian-main/Progra 1/MisNotas/FormatModifiers cheatsheet.md",
-    "UNRN_Obsidian-main/Progra 1/MisNotas/Clase 6.md",
-    "UNRN_Obsidian-main/Progra 1/MisNotas/Clase 5.md",
-    "UNRN_Obsidian-main/Progra 1/MisNotas/Clase 4.md"
-=======
     "Quimica/2. Modelo atómico.md",
     "CasaPropiaEnElSur/gitignore.md",
     "Progra 1/Clase 4.md",
-    "Z_CapturasDeImagen/Pasted image 20260813195216.png",
-    "Z_CapturasDeImagen/Pasted image 20260813194903.png",
     "Progra 1/Clase 1.md",
     "Progra 1/Clase 3.md",
     "SnippetsObsidian/GitSnippets.md",
     "Nombres/Serena.md",
-    "Nombres/Epicteto.md",
-    "Nombres/Ataraxia.md",
-    "Nombres/Estoico.md",
-    "Nombres/Zenon.md",
-    "Nombres/Heráclito.md"
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
+    "Nombres/Epicteto.md"
   ]
 }
