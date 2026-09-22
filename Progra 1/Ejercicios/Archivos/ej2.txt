@@ -1,0 +1,4 @@
+---lista de productos ---
+Producto: Tomates | Precio $30.00
+Producto: Peras | Precio $3.00
+Producto: Papas | Precio $1.00
