@@ -1,17 +1,3 @@
 {
-<<<<<<< HEAD
-  "cssTheme": "Obsidianite",
-=======
-  "cssTheme": "",
->>>>>>> 2267219ee76e7ed787f005c1eed539b6cb28413b
-  "showRibbon": true,
-  "theme": "obsidian",
-  "nativeMenus": true,
-  "enabledCssSnippets": [
-    "headers",
-    "styles",
-    "breadcrumTitle",
-    "tabs",
-    "background"
-  ]
+  "cssTheme": "Obsidianite"
 }

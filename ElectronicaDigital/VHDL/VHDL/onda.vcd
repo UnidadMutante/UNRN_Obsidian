@@ -1,0 +1,72 @@
+$date
+  Mon Sep 14 10:22:00 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module p5_ej6_tb $end
+$var reg 1 ! test_w1 $end
+$var reg 1 " test_w2 $end
+$var reg 1 # test_w3 $end
+$var reg 1 $ test_f $end
+$scope module uut $end
+$var reg 1 % w1 $end
+$var reg 1 & w2 $end
+$var reg 1 ' w3 $end
+$var reg 1 ( f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#1000000
+1!
+1%
+#2000000
+0!
+1#
+0%
+1'
+#3000000
+1!
+1$
+1%
+1(
+#4000000
+0!
+1"
+0#
+0$
+0%
+1&
+0'
+0(
+#5000000
+1!
+1$
+1%
+1(
+#6000000
+0!
+1#
+0%
+1'
+#7000000
+1!
+1%

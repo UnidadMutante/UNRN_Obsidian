@@ -1,0 +1,1 @@
+Suponga que se quiere determinar cuántos bits en un número sin signo de tres bits son iguales. Diseñe el circuito más simple que pueda realizar esa tarea.
