@@ -6,3 +6,5 @@ archivos .h -> tienen declaraciones, son como promesas de funciones que van a es
 
 1. generar un directorio
 2. descomprimir el .zip del campos
+
+![[Pasted image 20260922164619.png]]
