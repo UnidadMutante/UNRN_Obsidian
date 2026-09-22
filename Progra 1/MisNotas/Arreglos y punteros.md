@@ -11,6 +11,16 @@ una arquitectura De 32 bits tiene un puntero de 4 bytes
 &a es como decir "address of a" la direccion de a
 
 ![[Pasted image 20260901160926.png]]
+ 
+ ![[Pasted image 20260908152557.png]]
+
+char a = 36;
+char *pa = &a;
+char *pb = NULL;
+char c = *pb; -> no se puede referencias punteros null - da **Segmentation fault**
+ 
+
+
  va a buscar a *pa, se da cuenta de que es una direccion de memoria (porque es un puntero) y va a buscar lo que esta ahi 
  y como el puntero *pa tenia guardado la direccion de a*
 ![[Pasted image 20260901161510.png]]
@@ -21,11 +31,11 @@ ojo con los paréntesis, es mejor dejarlos explicitos para manejar el comportami
 
 ![[Pasted image 20260901162045.png]]
 
-![[Pasted image 20260901170607.png]]
+![[Pasted image 20260901170607.png|251]]
 
 
 
-![[Pasted image 20260901170938.png]]
+![[Pasted image 20260901170938.png|242]]
 
 quiero el contenido de a -> para eso uso el asterisco
 
@@ -147,3 +157,24 @@ char *a = 'x';
 ```
 
 sería incorrecto, porque estarías intentando guardar un carácter como si fuera una ubicación.
+
+![[Pasted image 20260908152725.png]]
+
+![[Pasted image 20260908152734.png]]
+
+![[Pasted image 20260908152818.png]]
+
+![[Pasted image 20260908152907.png]]
+
+![[Pasted image 20260908153027.png]]
+
+![[Pasted image 20260908153255.png]]
+
+rv es return value
+
+con puntero
+![[Pasted image 20260908155326.png]]
+
+
+con arreglo
+![[Pasted image 20260908155648.png]]
