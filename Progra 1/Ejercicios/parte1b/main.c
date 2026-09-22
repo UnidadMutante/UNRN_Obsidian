@@ -2,7 +2,13 @@
 #include <stdlib.h>
 
 #include "ventas.h"
-#include "cliente.h"
+
+//estructura para clientes.
+typedef struct {
+    int id_cliente;
+    float total_monto;
+    int cantidad_ventas;
+} ResumenCliente;
 
 int main() {
 
@@ -21,39 +27,43 @@ int main() {
     }
 
     // PARTE 1 - CONSIGNA DEL ALUMNO:
+    // 1. Crear struct ResumenCliente (id_cliente, total_monto, cantidad_ventas). LISTO
     // 2. Asignar memoria para cant_clientes elementos.
     ResumenCliente *clientes = malloc(cant_clientes * sizeof(ResumenCliente));
-    if (clientes == NULL) {
-        printf("Error al reservar memoria para los clientes\n");
-        free(ventas);
+    if (clientes == NULL)
+    {
+        //No hay memoria!
+        free(ventas);    
         return 1;
     }
 
-    // inicializar la estructura de clientes
-    for (int i = 0; i < cant_clientes; i++) {
-        clientes[i].total_monto = 0.0;
-        clientes[i].cantidad_ventas = 0;
+    for (int i=0;i<cant_clientes;i++)
+    {
+        clientes[i].total_monto=0;
+        clientes[i].cantidad_ventas=0;
     }
 
     // 3. Procesar vec_ventas y acumular los datos.
-    for (int i = 0; i < cant_ventas; i++) {
-        // recorrder cada venta y acumular los datos de compra de cada cliente
-        int id_cliente = ventas[i].id_cliente;
-        clientes[id_cliente].id_cliente = id_cliente;
-        clientes[id_cliente].total_monto += ventas[i].monto;
-        clientes[id_cliente].cantidad_ventas++; 
+    for (int i=0;i<cant_ventas;i++)
+    {
+        int idx_cliente = ventas[i].id_cliente;
+        clientes[idx_cliente].id_cliente = idx_cliente;
+        clientes[idx_cliente].total_monto += ventas[i].monto;
+        clientes[idx_cliente].cantidad_ventas += 1;
     }
 
+    // 3.1 imprimir por pantalla información de los clientes.
     for (int i = 0; i < cant_clientes; i++) {
         printf("Cliente ID: %d, Total Monto: %.2f, Cantidad Ventas: %d\n", 
                clientes[i].id_cliente, 
                clientes[i].total_monto, 
                clientes[i].cantidad_ventas);
     }
+
     // 4. Guardar los datos en "resumen.txt".
 
     // 5. Liberar memoria.
-
+    free(clientes);
     free(ventas);
     return 0;
 }

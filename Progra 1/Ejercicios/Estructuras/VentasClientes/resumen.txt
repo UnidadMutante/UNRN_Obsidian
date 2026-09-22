@@ -1,0 +1,5 @@
+Cliente ID: 0, Total Monto: 225.75, Cantidad Ventas: 2
+Cliente ID: 1, Total Monto: 320.75, Cantidad Ventas: 2
+Cliente ID: 2, Total Monto: 380.00, Cantidad Ventas: 2
+Cliente ID: 3, Total Monto: 110.50, Cantidad Ventas: 2
+
