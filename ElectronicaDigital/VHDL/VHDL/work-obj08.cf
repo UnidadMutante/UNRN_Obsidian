@@ -1,7 +1,0 @@
-v 4
-file . "p5_ej6_tb.vhd" "de49bec3c658747307dcd06e225bd7874153f2d4" "20260914132150.850":
-  entity p5_ej6_tb at 7( 195) + 0 on 13;
-  architecture rtl of p5_ej6_tb at 13( 281) + 0 on 14;
-file . "p5_ej6.vhd" "072712945e83e87ad4659edbffb6c4362b1fd8cf" "20260914132150.791":
-  entity p5_ej6 at 7( 162) + 0 on 11;
-  architecture rtl of p5_ej6 at 18( 319) + 0 on 12;
