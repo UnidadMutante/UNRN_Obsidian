@@ -32,9 +32,13 @@ architecture rtl of SumArit_Nbits is
     zcvn(2) <= '1' when unsigned(std_logic_vector(a)) < unsigned(std_logic_vector(b)) and op = '1' else
             '1' when unsigned(std_logic_vector(a)) > (not unsigned(std_logic_vector(b))) and op = '0' else
             '0';
-    -- analizando el bit mas significativo de cada numero. si negativo  + negativo da positivo o si positivo mas positivo da negativo, pasamos 1
-    zcvn(1) <= '1' when a(N-1) = '1' and  b(N-1) = '1' and r(N-1) = '0' else 
-        '1' when a(N-1) = '0' and  b(N-1) = '0' and r(N-1) = '1' else 
+    -- analizando el bit mas significativo de cada numero. 
+    -- para la suma: si negativo  + negativo da positivo o si positivo mas positivo da negativo, pasamos 1
+    -- para la resta: si ambos operandos son diferentes y el resultado tiene signo diferente del primer operando, pasamos 1
+    zcvn(1) <= '1' when a(N-1) = '1' and  b(N-1) = '1' and r(N-1) = '0' and op = '0' else 
+        '1' when a(N-1) = '0' and  b(N-1) = '0' and r(N-1) = '1' and op = '0' else 
+        '1' when a(N-1) = '1' and  b(N-1) = '0' and r(N-1) = '0' and op = '1' else
+        '1' when a(N-1) = '0' and  b(N-1) = '1' and r(N-1) = '1' and op = '1' else
         '0';
     -- solo miro el bit mas significativo del resultado, para saber si es positivo o negativo
     zcvn(0) <= r(N-1);

@@ -1,0 +1,35 @@
+## Git Cheat Sheet: Check → Stash → Commit & Push
+
+### 1. Check what's in your local repo
+```bash
+git status                 # see modified/staged/untracked files
+git diff                   # see unstaged changes in detail
+git log --oneline -5       # see your recent local commits
+```
+
+### 2. Stash your local changes
+```bash
+git stash                          # stash tracked changes
+git stash -u                       # also stash untracked files
+git stash save "descriptive name"  # stash with a message
+git stash list                     # confirm it's stashed
+```
+
+### 3. Bring changes back, commit, and push
+```bash
+git stash pop               # restore the stashed changes (and remove from stash)
+git add .                   # stage everything (or use `git add <file>` for specific files)
+git commit -m "your message"
+git push                    # push to the current branch's upstream
+```
+
+### Bonus: useful checks along the way
+```bash
+git branch --show-current   # confirm which branch you're on
+git status                  # re-check before committing
+git log --oneline -3        # confirm the commit landed
+```
+
+**Note on order:** if your goal is really "stash, then later commit+push those same changes," remember `git stash pop` (step 3) is what brings them back before you `add`/`commit`. If instead you want to stash something *different* from what you're about to commit (e.g., stash WIP changes to commit unrelated staged work), skip the `pop` until after you push.
+
+Want me to turn this into a downloadable `.md` file, or add a version with `git stash apply` (keeps the stash) instead of `pop`?

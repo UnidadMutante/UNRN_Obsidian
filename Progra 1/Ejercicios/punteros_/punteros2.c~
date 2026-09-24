@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void change_value(char letra);
+
+
+int main (void) {
+	char l;
+
+	l = 'a';
+
+	//paso la direccion de memoria de l por la funcion change_value. 
+	change_value(&l);
+	printf("%c\n", l );
+
+	return 0;
+}
+
+// la funcion espera un puntero, en realidad le vamos a pasar la direccion de memoria en donde quiero sobre escribir el valor de la letra
+void change_value(char *letra) {
+           *letra = 'b';
+}
+

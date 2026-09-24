@@ -77,5 +77,6 @@ int main() {
 
     free(clientes);
     free(ventas);
+    
     return 0;
 }

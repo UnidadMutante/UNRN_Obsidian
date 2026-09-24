@@ -1,0 +1,25 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+void change_value(char *letter) {
+	*letter = 'b';
+}
+
+int main (void) {
+
+	char *l = malloc(sizeof(char));	
+	if (l == NULL)
+	{
+		fprintf(stderr, "Error: no pudo reservar memoria\n");
+		return(1);
+	}
+	*l = 'a';
+	// en este caso no hay que pasar &a porque ya definimos l como puntero
+	change_value(l);
+	printf("%c\n", *l);
+	
+	// no hace falta definir l como puntero aca
+	free(l);
+	return 0;
+
+}

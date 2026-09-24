@@ -76,6 +76,86 @@ begin
     assert test_r = "1110" and test_zcvn = "0001" 
     report "Fallo caso 3: 1111 - 0001 = 1110 // zcvn 0001" severity failure;
 
+ -- Caso 4
+    test_a <= "0101";
+    test_b <= "0101";   
+    test_op <= '0';
+    wait for ESPERA;    
+    assert test_r = "1010" and test_zcvn = "0011" 
+    report "Fallo caso 4: 0101 + 0101 = 1010 // zcvn 0011" severity failure;
+
+ -- Caso 5
+    test_a <= "0101";
+    test_b <= "0101";   
+    test_op <= '1';
+    wait for ESPERA;    
+    assert test_r = "0000" and test_zcvn = "1000" 
+    report "Fallo caso 5: 0101 - 0101 = 0000 // zcvn 1000" severity failure;
+
+ -- Caso 6
+    test_a <= "1000";
+    test_b <= "0111";   
+    test_op <= '0';
+    wait for ESPERA;    
+    assert test_r = "1111" and test_zcvn = "0001" 
+    report "Fallo caso 6: 1111 + 0001 = 1111 // zcvn 0001" severity failure;
+
+ -- Caso 7
+    test_a <= "1000";
+    test_b <= "0111";   
+    test_op <= '1';
+    wait for ESPERA;    
+    assert test_r = "0001" and test_zcvn = "0010" 
+    report "Fallo caso 7: 1000 - 0111 = 0001 // zcvn 0001" severity failure;
+
+ -- Caso 8
+    test_a <= "0110";
+    test_b <= "1010";   
+    test_op <= '0';
+    wait for ESPERA;    
+    assert test_r = "0000" and test_zcvn = "1100" 
+    report "Fallo caso 8: 0110 + 1010 = 0000 // zcvn 1110" severity failure;
+
+ -- Caso 9
+    test_a <= "0110";
+    test_b <= "1010";   
+    test_op <= '1';
+    wait for ESPERA;    
+    assert test_r = "1100" and test_zcvn = "0111" 
+    report "Fallo caso 9: 0110 - 1010 = 1100 // zcvn 0101" severity failure;
+
+ -- Caso 10
+    test_a <= "1101";
+    test_b <= "1100";   
+    test_op <= '0';
+    wait for ESPERA;    
+    assert test_r = "1001" and test_zcvn = "0101" 
+    report "Fallo caso 10: 1101 + 1100 = 1001 // zcvn 1010" severity failure;
+
+ -- Caso 11
+    test_a <= "1101";
+    test_b <= "1100";   
+    test_op <= '1';
+    wait for ESPERA;    
+    assert test_r = "0001" and test_zcvn = "0000" 
+    report "Fallo caso 11: 1101 - 1100 = 0001 // zcvn 0000" severity failure;
+
+ -- Caso 12
+    test_a <= "1101";
+    test_b <= "1101";   
+    test_op <= '0';
+    wait for ESPERA;    
+    assert test_r = "1010" and test_zcvn = "0101" 
+    report "Fallo caso 12: 1101 + 1101 = 1010 // zcvn 0101" severity failure;
+
+ -- Caso 13
+    test_a <= "1101";
+    test_b <= "1101";   
+    test_op <= '1';
+    wait for ESPERA;    
+    assert test_r = "0000" and test_zcvn = "1000" 
+    report "Fallo caso 13: 1101 - 1101 = 0000 // zcvn 1000" severity failure;
+
      -- fin
             assert false report "Simulacion OK!" severity note;
             wait;
