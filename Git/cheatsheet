@@ -1,4 +1,6 @@
-## Git Cheat Sheet: Check → Stash → Commit & Push
+Yes — you should almost always pull (or fetch+merge/rebase) before pushing, so you don't hit a rejected push if the remote has commits you don't have locally. Here's the updated cheat sheet:
+
+## Git Cheat Sheet: Check → Stash → Pull → Commit & Push
 
 ### 1. Check what's in your local repo
 ```bash
@@ -15,21 +17,83 @@ git stash save "descriptive name"  # stash with a message
 git stash list                     # confirm it's stashed
 ```
 
-### 3. Bring changes back, commit, and push
+### 3. Bring in the latest changes from remote
 ```bash
-git stash pop               # restore the stashed changes (and remove from stash)
-git add .                   # stage everything (or use `git add <file>` for specific files)
+git pull                    # fetch + merge remote changes into current branch
+git pull --rebase           # fetch + rebase instead of merge (cleaner history)
+```
+
+> ⚠️ If you still have uncommitted changes (didn't stash, or stashed but not `pop`ped yet), `git pull` can fail or conflict with them. Make sure your working directory is clean before pulling — that's exactly why stashing first (step 2) matters here.
+
+### 4. Restore your changes, commit, and push
+```bash
+git stash pop                # restore stashed changes (removes from stash list)
+git add .                    # stage everything (or `git add <file>` for specific files)
 git commit -m "your message"
-git push                    # push to the current branch's upstream
+git push                     # push to the current branch's upstream
+```
+
+### Handling conflicts after `git stash pop`
+If your stashed changes conflict with what you just pulled:
+```bash
+git status                   # see which files have conflicts
+# manually resolve conflicts in the marked files
+git add <resolved-file>      # mark as resolved
+git stash drop                # remove the stash once you've resolved everything (pop leaves it if conflicts occurred)
 ```
 
 ### Bonus: useful checks along the way
 ```bash
-git branch --show-current   # confirm which branch you're on
-git status                  # re-check before committing
-git log --oneline -3        # confirm the commit landed
+git branch --show-current    # confirm which branch you're on
+git status                   # re-check before committing
+git log --oneline -3         # confirm the commit landed
+git log --oneline origin/<branch>..HEAD   # see commits not yet pushed
 ```
 
-**Note on order:** if your goal is really "stash, then later commit+push those same changes," remember `git stash pop` (step 3) is what brings them back before you `add`/`commit`. If instead you want to stash something *different* from what you're about to commit (e.g., stash WIP changes to commit unrelated staged work), skip the `pop` until after you push.
+**Recommended full order:** `status` → `stash` → `pull` → `stash pop` → `add` → `commit` → `push`. This way you always start your commit from the most up-to-date base, minimizing merge conflicts later.
 
-Want me to turn this into a downloadable `.md` file, or add a version with `git stash apply` (keeps the stash) instead of `pop`?
+If you want to overwrite whatever's on the remote with your local branch, you use a **force push**. This is destructive to the remote history, so it's worth a clear warning before the commands.
+
+## ⚠️ Force Push — use with caution
+This **overwrites the remote branch** with your local one. Any commits that exist on the remote but not locally will be **lost** (unless someone else still has them locally). Never do this on shared branches like `main`/`master` unless you're absolutely sure, and ideally coordinate with your team first.
+
+```bash
+git push --force              # force push, overwrites remote
+git push --force-with-lease   # safer alternative — see below
+```
+
+### Prefer `--force-with-lease` over plain `--force`
+```bash
+git push --force-with-lease
+```
+This checks that the remote branch hasn't changed since you last fetched it — so if a teammate pushed something you don't know about, it'll refuse instead of blindly wiping their work. Plain `--force` has no such check.
+
+
+### 1. Check what's in your local repo
+```bash
+git status
+git diff
+git log --oneline -5
+```
+
+### 2. Stash local changes (if needed)
+```bash
+git stash
+git stash -u
+```
+
+### 3. Restore, commit
+```bash
+git stash pop
+git add .
+git commit -m "your message"
+```
+
+### 4. Push, ignoring remote state
+```bash
+git push --force-with-lease   # recommended: safer force push
+# or
+git push --force              # only if you're certain no one else's work will be lost
+```
+
+**When this makes sense:** you rebased/amended local commits and need to overwrite the remote history to match, or you're on a personal/feature branch that no one else is touching. **When it doesn't:** shared branches where someone else might have pushed in the meantime — that's exactly what `--force-with-lease` protects against.
