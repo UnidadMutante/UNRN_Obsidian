@@ -13,21 +13,12 @@ int main (void) {
     size_t cantidad = sizeof(datos) /sizeof(datos[0]);
     
     printf("Arreglo original: \n"); 
-    for (size_t i = 0; i < cantidad; i++) {
-    printf("ID: %d | Altitud: %.1f | Temperatura: %.1f\n",
-           datos[i].id_paquete,
-           datos[i].altitud,
-           datos[i].temperatura);
-}
+    imprimirTelemetria(datos, cantidad);
 
 // Llamo a Quicksort enviando el índice inicial (0) y el final (n-1) 
    quickSort(datos, 0, cantidad - 1); 
    printf("\nArreglo ordenado: \n"); 
-   for (size_t i = 0; i < cantidad; i++) {
-    printf("ID: %d | Altitud: %.1f | Temperatura: %.1f\n",
-           datos[i].id_paquete,
-           datos[i].altitud,
-           datos[i].temperatura);
-}
+   imprimirTelemetria(datos, cantidad);
+
     return 0;
 }
