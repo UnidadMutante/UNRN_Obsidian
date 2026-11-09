@@ -36,10 +36,11 @@ int main (void) {
     cadena[largo];
     printf("Se ingreso: %s de tamaño %d. \n", cadena, largo);
 
-    printf("copiar desde\n")
+    printf("copiar desde\n");
+    scanf()
 
     return rv;
-
+}
     bool extraer_subcadena(char destino[], size_t capacidad_destino, const char origen[], size_t inicio, size_t caracteres_deseados) {
 
         bool rv= false;
@@ -47,10 +48,10 @@ int main (void) {
 
     }
 
-    size_t largo_seguro(const char cad[], size_t capacidad) {
+    size_t largo_seguro(const char cap[], size_t capacidad) {
         size_t tam = 0;
         if(cap>0) {
-        while (cad[tam] != '\0' && tam < capacidad) 
+        while (cap[tam] != '\0' && tam < capacidad) 
         {
             tam++;
         }
